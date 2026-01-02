@@ -39,18 +39,12 @@ export const Hero: React.FC = () => {
         
         {/* Left Side: Large Logo and Event Title */}
         <div className="flex flex-col items-center lg:items-start space-y-4 animate-fade-in">
-          <div className="w-full h-full md:w-72 md:h-72 lg:w-[400px] lg:h-[400px] relative float-animation">
+          <div className="w-full h-full  relative float-animation">
             <img 
               src="./assets/JUNOHeroLogo.png" 
               className="w-[900px] h-auto object-contain" 
               alt="JUNO Peacock Logo" 
-            />
-            <h1 className="font-cinzel text-5xl md:text-6xl lg:text-7xl font-black gold-text tracking-[0.15em] leading-tight">
-              JUNO EDITION III
-            </h1>
-            <p className="text-xs md:text-sm lg:text-base tracking-[0.4em] text-white/80 font-bold uppercase mt-2">
-              Technotsav - Brilliance Meet Innovation
-            </p>
+            />0
             {/* Crown addition simulation via absolute positioning if needed, 
                 but high brightness peacock already provides a very similar look */}
           </div>  
